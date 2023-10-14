@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unipi.sam.emusic.ux_classes.podcast.PodcastView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/podcast_contentImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music_placeholder"/>
+    <TextView
+        android:id="@+id/podcast_mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        style="@style/TrackTitleStyle"
+        android:lines="1"
+        android:text="FILL"/>
+</unipi.sam.emusic.ux_classes.podcast.PodcastView>

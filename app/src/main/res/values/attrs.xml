@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImageFilterView">
+        <attr name="blendSrc" format="reference" />
+        <attr name="altSrc" format="reference" />
+        <attr name="saturation" format="float" />
+        <attr name="brightness" format="float" />
+        <attr name="warmth" format="float" />
+        <attr name="contrast" format="float" />
+        <attr name="crossfade" format="float" />
+        <attr name="round" format="dimension" />
+        <attr name="overlay" format="boolean" />
+        <attr name="roundPercent" format="float" />
+        <attr name="imagePanX" format="float" />
+        <attr name="imagePanY" format="float" />
+        <attr name="imageZoom" format="float" />
+        <attr name="imageRotate" format="float" />
+    </declare-styleable>
+
+</resources>

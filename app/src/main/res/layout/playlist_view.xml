@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unipi.sam.emusic.ux_classes.playlist.PlaylistView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/playlist_view_contentImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/music_placeholder"/>
+    <TextView
+        android:id="@+id/playlist_view_titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:lines="1"
+        android:ellipsize="end"
+        style="@style/TrackTitleStyle"
+        android:text="TITLE"/>
+    <TextView
+        android:id="@+id/playlist_view_playlistText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="playlist"/>
+</unipi.sam.emusic.ux_classes.playlist.PlaylistView>

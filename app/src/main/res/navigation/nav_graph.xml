@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment"
+    android:id="@+id/nav_graph">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="unipi.sam.emusic.main_navigation.home.HomeFragment"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/discoveryFragment"
+        android:name="unipi.sam.emusic.main_navigation.discovery.DiscoveryFragment"
+        />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="unipi.sam.emusic.main_navigation.profile.ProfileFragment"
+        />
+    <fragment
+        android:id="@+id/artistDetailFragment"
+        android:name="unipi.sam.emusic.components.artist_detail.ArtistDetailFragment"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/albumDetailFragment"
+        android:name="unipi.sam.emusic.components.album_detail.AlbumDetailFragment"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/genreEXplorerFragment"
+        android:name="unipi.sam.emusic.components.genre_explorer.GenreExplorerFragment"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/playlistDetailFragment"
+        android:name="unipi.sam.emusic.components.playlist_detail.PlaylistDetailFragment"
+        >
+    </fragment>
+</navigation>

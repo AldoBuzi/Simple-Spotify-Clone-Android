@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="robotoRegular">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+
+
+    <!-- player Big Title -->
+    <style name="playerBigTitleStyle">
+        <item name="android:textSize">35sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="lineHeight">30dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Genre Text Title -->
+    <style name="genreTextTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="lineHeight">30dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Shapeable Image View -->
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize25Percent" parent="">
+        <item name="cornerSize">25%</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize15Percent" parent="">
+        <item name="cornerSize">15%</item>
+    </style>
+
+    <!-- category style for heading category-->
+
+    <style name="CategoryHeadingStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--Track style -->
+    <style name="TrackTitleStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Artist Style -->
+    <style name="ArtistTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Toolbar styles -->
+    <style name="ToolbarTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Playlist Detail styles -->
+    <style name="PlaylistDetailTitleStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

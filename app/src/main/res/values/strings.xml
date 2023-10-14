@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EMUSIC</string>
+
+
+    <!-- bottom navigation -->
+    <string name="home">HOME</string>
+    <string name="profile">PROFILE</string>
+    <string name="discovery">DISCOVERY</string>
+
+
+    <string name="service_name">emusic_service</string>
+    <string name="player_fragment">player_back_stack</string>
+
+
+    <!-- Notificaiton Channel -->
+    <string name="notification_channel">Now Playing</string>
+    <string name="notification_channel_description">Shows what music is currently playing in UAMP</string>
+
+    <!-- Notification actions -->
+    <string name="notification_skip_to_previous">Skip to previous track</string>
+    <string name="notification_skip_to_next">Skip to next track</string>
+    <string name="notification_play">Play</string>
+    <string name="notification_pause">Pause</string>
+
+    <!-- Error messages -->
+    <string name="error_media_not_found">Could not locate requested media.</string>
+    <string name="generic_error">The application has encountered an unexpected error.</string>
+
+    <string name="channel_name">emusic_notification_channel</string>
+    <string name="channel_description">emusic service to play music in background</string>
+
+
+    <string name="best_podcast">I Podcast più seguiti</string>
+    <string name="best_track">I Brani del momento</string>
+    <string name="best_album">Album in tendenza</string>
+    <string name="best_artist">Artisti più seguiti</string>
+    <string name="best_playlist">Le playlist più ascoltate</string>
+    <string name="artist_search">Artisti che potrebbero interessarti</string>
+    <string name="track_search">Brani simili</string>
+    <string name="playlist_search">Playlist correlate</string>
+    <string name="album_search">Album suggeriti</string>
+    <string name="track_artist_related">Migliori brani</string>
+    <string name="album_tracks">Tutti i brani</string>
+    <string name="artist_related">Contenuti correlati </string>
+    <string name="artist_best_album">Album più ascoltati</string>
+    <string name="artist_best_playlist">Playlist più apprezzate</string>
+
+
+    <!-- options dialog -->
+    <string name="see_artits_options">Visualizza artista</string>
+    <string name="delete_option">Elimina definitivamente la playlist</string>
+    <string name="options_title">Opzioni</string>
+    <string name="option_add_to_playlist">Aggiungi ad una playlist</string>
+    <string name="option_remove_from_playlist">Rimuovi dalla playlist</string>
+    <string name="option_download_song">Scarica canzone</string>
+
+    <!-- call back string-->
+    <string name="track_successfully_added">Canzone aggiunta con successo</string>
+    <string name="delete_track_from_storage">Elimina download canzone</string>
+
+
+    <string name="preference_file_key">database_preferences</string>
+    <string name="database_init">isInitialised</string>
+</resources>

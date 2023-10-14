@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+    <Transition
+        motion:constraintSetStart="@id/start"
+        motion:constraintSetEnd="@id/end"
+        android:id="@+id/motion_layout_transition"
+        motion:motionInterpolator="linear"
+        motion:duration="200"
+        >
+        <OnSwipe
+            motion:dragDirection="dragUp"
+            motion:dragScale="1000"
+            motion:touchAnchorId="@+id/player_mainContentImage"
+            motion:touchRegionId="@id/container"
+            motion:touchAnchorSide="top" />
+
+        <KeyFrameSet>
+
+
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="10"
+                motion:motionTarget="@id/player_controls_container" />
+            <KeyAttribute
+                android:alpha="0.01"
+                motion:framePosition="99"
+                motion:motionTarget="@id/player_smallPlayBtn"/>
+            <KeyAttribute
+                android:alpha="0.01"
+                motion:framePosition="99"
+                motion:motionTarget="@id/player_smallControlsContainer"/>
+
+
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet
+        android:id="@+id/start">
+        <Constraint android:id="@+id/player_mainContentImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            motion:layout_constraintStart_toStartOf="@id/container"
+            motion:layout_constraintEnd_toEndOf="@id/container"
+            motion:layout_constraintBottom_toBottomOf="@id/container"
+            motion:layout_constraintVertical_bias="0.2"
+            motion:layout_constraintTop_toBottomOf="@id/options_container"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            motion:layout_constraintHorizontal_bias="0.5"/>
+        <Constraint android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+
+            motion:layout_constraintHorizontal_bias="0.5"
+            >
+            <CustomAttribute motion:attributeName="round" motion:customDimension="0dp"/>
+            <CustomAttribute motion:attributeName="roundPercent" motion:customFloatValue="0"/>
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet
+        android:id="@+id/end">
+        <Constraint android:id="@+id/player_mainContentImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            motion:layout_constraintStart_toStartOf="@id/container"
+            motion:layout_constraintBottom_toBottomOf="@id/container"
+            motion:layout_constraintTop_toTopOf="@id/container"
+            motion:layout_constraintVertical_bias="0.5"
+            android:layout_marginStart="5dp"
+            />
+        <Constraint android:id="@+id/player_controls_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:alpha="0"
+            motion:layout_constraintBottom_toBottomOf="@id/container"
+            motion:layout_constraintStart_toStartOf="@id/container"
+            motion:layout_constraintEnd_toEndOf="@id/container"
+            android:visibility="gone"
+            />
+        <Constraint android:id="@+id/options_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:alpha="0"
+            />
+        <Constraint android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+
+            motion:layout_constraintHorizontal_bias="0.5"
+            >
+            <CustomAttribute motion:attributeName="round" motion:customDimension="2dp"/>
+            <CustomAttribute motion:attributeName="roundPercent" motion:customFloatValue="0.25"/>
+        </Constraint>
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/player_smallControlsContainer"
+            motion:layout_constraintStart_toEndOf="@id/player_mainContentImage"
+            motion:layout_constraintTop_toTopOf="@id/player_mainContentImage"
+            motion:layout_constraintBottom_toBottomOf="@id/player_mainContentImage"
+            android:layout_marginStart="5dp"
+            android:alpha="1"
+            android:visibility="visible"/>
+        <Constraint
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@id/player_smallPlayBtn"
+            motion:layout_constraintStart_toEndOf="@id/player_smallControlsContainer"
+            motion:layout_constraintTop_toTopOf="@id/player_smallControlsContainer"
+            motion:layout_constraintBottom_toBottomOf="@id/player_smallControlsContainer"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintHorizontal_bias="0.9"
+            android:alpha="1"
+            android:visibility="visible"/>
+    </ConstraintSet>
+</MotionScene>
