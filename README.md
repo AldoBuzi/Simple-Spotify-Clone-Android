@@ -1,6 +1,6 @@
 # EMusic - Android App ![Build status](https://github.com/wallabag/android-app/workflows/CI/badge.svg?branch=master)
 
-<img src="https://github.com/AldoBuzi/emusic_sam/blob/main/app/src/main/ic_launcher-playstore.png" align="left"
+<img src="https://github.com/AldoBuzi/emusic_sam/blob/main/app/src/release/ic_launcher-playstore.png" align="left"
 width="200" hspace="10" vspace="10">
 
 EMusic is an app made for a university project, it was made in just under two weeks, so for any problems or improvements I am available. Emusic simulates a music app, allowing you to listen to songs, create playlists, view artists/albums, and finally do searches.
@@ -38,18 +38,18 @@ The android app lets you:
 
 ## Screenshots
 
-[<img src="https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image1.jpeg" align="center"
+[<img src="https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image1.jpeg" align="center"
 width="200"
-    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image1.jpeg)
-[<img src="https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image2.jpeg" align="center"
+    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image1.jpeg)
+[<img src="https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image2.jpeg" align="center"
 width="200"
-    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image2.jpeg)
-[<img src="https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image3.jpeg" align="center"
+    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image2.jpeg)
+[<img src="https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image3.jpeg" align="center"
 width="200"
-    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image3.jpeg)
-[<img src="https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image4.jpeg" align="center"
+    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image3.jpeg)
+[<img src="https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image4.jpeg" align="center"
 width="200"
-    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/main/screenshots/image4.jpeg)
+    hspace="0" vspace="10">](https://github.com/AldoBuzi/emusic_sam/blob/release/screenshots/image4.jpeg)
 
 ## Database and data
 The data is retrieved from the api provided by deezer (https://developers.deezer.com/api), it is
