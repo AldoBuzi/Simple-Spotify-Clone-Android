@@ -1,6 +1,6 @@
 # EMusic - Android App ![Build status](https://github.com/wallabag/android-app/workflows/CI/badge.svg?branch=master)
 
-<img src="https://github.com/AldoBuzi/emusic_sam/blob/main/app/src/release/ic_launcher-playstore.png" align="left"
+<img src="https://github.com/AldoBuzi/emusic_sam/blob/release/app/src/release/ic_launcher-playstore.png" align="left"
 width="200" hspace="10" vspace="10">
 
 EMusic is an app made for a university project, it was made in just under two weeks, so for any problems or improvements I am available. Emusic simulates a music app, allowing you to listen to songs, create playlists, view artists/albums, and finally do searches.
